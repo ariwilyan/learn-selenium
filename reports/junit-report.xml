@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="signin-on-the-website;user-success-to-signin-on-the-website" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:\Study\Job\Telkom Indonesia\Digital Talent Incubator\Materi\Pertemuan 12\functional-learn\features\signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse signin page" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.0008753">
+        </testcase>
+        <testcase name="And user fill email field" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.000379701">
+        </testcase>
+        <testcase name="And user fill password field" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.0004587">
+        </testcase>
+        <testcase name="When user click login button" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.000329999">
+        </testcase>
+        <testcase name="Then user can see bot page" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="8.074352">
+        </testcase>
+    </testsuite>
+</testsuites>

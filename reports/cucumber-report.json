@@ -1,0 +1,105 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to signin",
+    "elements": [
+      {
+        "id": "signin-on-the-website;user-success-to-signin-on-the-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User success to signin on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse signin page",
+            "result": {
+              "status": "passed",
+              "duration": 875300
+            },
+            "line": 9,
+            "match": {
+              "location": "12\\functional-learn\\step-definitions\\signin-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 379701
+            },
+            "line": 10,
+            "match": {
+              "location": "12\\functional-learn\\step-definitions\\signin-steps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 458700
+            },
+            "line": 11,
+            "match": {
+              "location": "12\\functional-learn\\step-definitions\\signin-steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click login button",
+            "result": {
+              "status": "passed",
+              "duration": 329999
+            },
+            "line": 12,
+            "match": {
+              "location": "12\\functional-learn\\step-definitions\\signin-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 8074352000
+            },
+            "line": 13,
+            "match": {
+              "location": "12\\functional-learn\\step-definitions\\signin-steps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 327914299
+            },
+            "hidden": true,
+            "match": {
+              "location": "12\\functional-learn\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "signin-on-the-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Signin on the website",
+    "tags": [],
+    "uri": "D:\\Study\\Job\\Telkom Indonesia\\Digital Talent Incubator\\Materi\\Pertemuan 12\\functional-learn\\features\\signin.feature"
+  }
+]
